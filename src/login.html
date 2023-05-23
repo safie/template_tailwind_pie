@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/output.css" rel="stylesheet">
+    <title>Dashboard Template</title>
+</head>
+
+<body class="bg-gray-100">
+    <div class="flex h-screen">
+        <!-- Sidebar -->
+        <aside class="bg-gray-900 text-white w-48">
+            <div class="p-4">
+                <h1 class="text-2xl font-bold">Dashboard</h1>
+            </div>
+            <nav class="mt-6">
+                <ul class="space-y-2">
+                    <li>
+                        <a href="#" class="flex items-center px-4 py-2 hover:bg-gray-700">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="w-6 h-6 mr-2">
+                                <path
+                                    d="M2 4.586l8 8V18H2v-2.414l-8-8V2h18v2.586l-8 8V18h-2v-5.414l8-8V2H2v2.586zM9 18h2v-2H9v2zm9-7.414L12.414 18H2v-6.586l8-8L17.586 10H20v1.586z" />
+                            </svg>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="flex items-center px-4 py-2 hover:bg-gray-700">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="w-6 h-6 mr-2">
+                                <path
+                                    d="M10 18A8 8 0 1 0 10 2a8 8 0 0 0 0 16zm-1-2h2v-2h-2v2zm1-12a4 4 0 1 1 0 8 4 4 0 0 1 0-8zm-1-2h2V4h-2v2z" />
+                            </svg>
+                            <span>Profile</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="flex items-center px-4 py-2 hover:bg-gray-700">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="w-6 h-6 mr-2">
+                                <path
+                                    d="M13 3H7a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zM7 5h6v2H7V5zm0 4h6v2H7V9zm0 4h4v2H7v-2z" />
+                            </svg>
+                            <span>Settings</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Content -->
+        <div class="flex flex-col flex-1">
+            <!-- Navbar -->
+            <header class="bg-white shadow">
+                <div class="container mx-auto px-6 py-3">
+                    <div class="flex justify-between items-center">
+                        <div class="flex items-center">
+                            <button class="text-gray-500 focus:outline-none">
+                                <img src="../asset/img/social-media.gif" alt="" class="w-[3rem]">
+                            </button>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="mr-3">John Doe</span>
+                            <button
+                                class="bg-gray-300 text-gray-700 px-3 py-2 rounded-md hover:bg-gray-200 focus:outline-none">
+                                Logout
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Main Content -->
+            <main class="p-6">
+                <h1 class="text-2xl font-bold">Welcome to the Dashboard</h1>
+                <!-- Your content goes here -->
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>
